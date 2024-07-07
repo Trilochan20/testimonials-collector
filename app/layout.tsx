@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common-ui/Navbar";
-import { Providers } from "@/lib/ThemeProvider";
+import { Providers } from "@/lib/provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const mont = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Testimonials Collector",
@@ -18,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={mont.className}>
         <Providers>
           <Navbar />
           {children}
