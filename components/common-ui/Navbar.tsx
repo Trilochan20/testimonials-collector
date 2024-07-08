@@ -29,7 +29,8 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className="fixed w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0 "
+      className="fixed w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0  dark:bg-slate-600/10
+                 backdrop-blur-sm border-b border-slate-100  dark:border-slate-800/60 "
       data-test="header"
     >
       <div className="mx-auto w-full max-w-7xl px-4 md:px-6">
