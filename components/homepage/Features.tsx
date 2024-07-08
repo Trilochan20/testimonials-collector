@@ -1,4 +1,4 @@
-import { BackgroundSVG } from "@/lib/BackgroundSVG";
+// import { BackgroundSVG } from "@/lib/BackgroundSVG";
 import { Zap } from "lucide-react";
 
 export const Features = () => {
@@ -52,7 +52,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ icon, title, description }) => (
   <div
     className="p-5 duration-300 transform bg-gray-100 dark:bg-slate-400/10
-                 backdrop-blur-sm  border dark:border-slate-200/10 rounded-md shadow-sm dark:shadow-slate-200/20 hover:-translate-y-2"
+                 backdrop-blur-sm  border dark:border-slate-200/10 rounded-md shadow-sm dark:shadow-slate-200/20 hover:hover:-translate-y-2"
   >
     <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-i  bg-indigo-900 dark:bg-indigo-100 text-slate-100 dark:text-slate-900">
       {icon}

@@ -30,13 +30,13 @@ const Navbar: React.FC = () => {
   return (
     <header
       className="fixed w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0  dark:bg-slate-600/10
-                 backdrop-blur-sm border-b border-slate-100  dark:border-slate-800/60 "
+                 backdrop-blur-sm border-b border-slate-100/20  dark:border-slate-800/10 "
       data-test="header"
     >
       <div className="mx-auto w-full max-w-7xl px-4 md:px-6">
         <div className="flex h-16 items-center justify-between lg:h-20">
           <a
-            className="inline-flex items-center font-bold tracking-wider rounded-sm focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-sky-500"
+            className="inline-flex items-center font-bold tracking-wider rounded-sm "
             href="/"
           >
             TESTIMONIAL C
@@ -63,9 +63,9 @@ const Navbar: React.FC = () => {
               <SheetTrigger asChild>
                 <Button
                   size="icon"
-                  className="bg-slate-100/50 dark:bg-transparent border border-slate-100/50"
+                  className="bg-slate-100 dark:bg-transparent  border border-slate-100/50"
                 >
-                  <Menu className="h-6 w-6 text-slate-800 dark:text-slate-200" />
+                  <Menu className="h-6 w-6 text-slate-900 dark:text-slate-100" />
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
