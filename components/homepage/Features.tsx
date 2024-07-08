@@ -1,4 +1,5 @@
 import { BackgroundSVG } from "@/lib/BackgroundSVG";
+import { Zap } from "lucide-react";
 
 export const Features = () => {
   return (
@@ -37,153 +38,77 @@ export const Features = () => {
           accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
       </div>
-      <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">The doctor said</h6>
-          <p className="text-sm text-gray-900">
-            Baseball ipsum dolor sit amet cellar rubber win hack tossed.
-            Slugging catcher slide bench league, left fielder nubber.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">That is the true</h6>
-          <p className="text-sm text-gray-900">
-            We meet at one of those defining moments - a moment when our nation
-            is at war, our economy is in turmoil, and the American promise has
-            been threatened once more.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Those options</h6>
-          <p className="text-sm text-gray-900">
-            Strategic high-level 30,000 ft view. Drill down re-inventing the
-            wheel at the end of the day but curate imagineer, or to be inspired
-            is to become creative.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Swearem ipsum</h6>
-          <p className="text-sm text-gray-900">
-            Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et.
-            Vestibulum placerat purus ut nibh aliquam fringilla. Aenean et
-            tortor diam, id tempor elit.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Webtwo ipsum</h6>
-          <p className="text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-            perspiciatis unde omnis.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Lookout flogging</h6>
-          <p className="text-sm text-gray-900">
-            Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
-            Light years quasar as a patch of light gathered by gravity Vangelis
-            radio telescope.
-          </p>
-        </div>
-      </div>
-      <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-        >
-          Learn more
-        </a>
-      </div>
+      <CardGrid />
     </section>
   );
 };
+
+interface CardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+const Card: React.FC<CardProps> = ({ icon, title, description }) => (
+  <div
+    className="p-5 duration-300 transform bg-gray-100 dark:bg-slate-400/10
+                 backdrop-blur-sm  border dark:border-slate-200/10 rounded shadow-sm dark:shadow-slate-200/20 hover:-translate-y-2"
+  >
+    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-i  bg-indigo-900 dark:bg-indigo-100 text-slate-100 dark:text-slate-900">
+      {icon}
+    </div>
+    <h6 className="mb-2 font-semibold leading-5">{title}</h6>
+    <p className="text-sm text-slate-900 dark:text-slate-100 ">{description}</p>
+  </div>
+);
+
+const CardGrid: React.FC = () => {
+  const cardData: CardProps[] = [
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "The doctor said",
+      description:
+        "Baseball ipsum dolor sit amet cellar rubber win hack tossed. Slugging catcher slide bench league, left fielder nubber.",
+    },
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "That is the true",
+      description:
+        "We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more.",
+    },
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "Those options",
+      description:
+        "Strategic high-level 30,000 ft view. Drill down re-inventing the wheel at the end of the day but curate imagineer, or to be inspired is to become creative.",
+    },
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "Swearem ipsum",
+      description:
+        "Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et. Vestibulum placerat purus ut nibh aliquam fringilla. Aenean et tortor diam, id tempor elit.",
+    },
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "Webtwo ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde omnis.",
+    },
+    {
+      icon: <Zap className="w-6 h-6 text-deep-purple-accent-400" />,
+      title: "Lookout flogging",
+      description:
+        "Flatland! Hypatia. Galaxies Orion's sword globular star cluster? Light years quasar as a patch of light gathered by gravity Vangelis radio telescope.",
+    },
+  ];
+
+  return (
+    <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      {cardData.map((card, index) => (
+        <Card key={index} {...card} />
+      ))}
+    </div>
+  );
+};
+
+export default CardGrid;
