@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         <a
           key={item.href}
           className="block rounded-sm text-sm  font-semibold text-zinc-800 dark:text-zinc-200  
-          focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-sky-500"
+          "
           href={item.href}
         >
           {item.label}
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className="absolute w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0 "
+      className="fixed w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0 "
       data-test="header"
     >
       <div className="mx-auto w-full max-w-7xl px-4 md:px-6">
