@@ -3,17 +3,22 @@ import React from "react";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative overflow-hidden  min-h-[720px] flex justify-center items-center ">
+    <section className="relative overflow-hidden  min-h-[720px] flex justify-center items-center backdrop-blur-sm">
       <BackgroundSVG
         className="absolute blur-3xl -right-96 -top-80"
         height="80%"
         width="80%"
       />
-      {/* <BackgroundSVG
-        className="absolute blur-3xl -bottom-48 left-[-20rem]"
+      <BackgroundSVG
+        className="absolute blur-3xl top-48 left-[-30rem]"
+        height="40%"
+        width="60%"
+      />
+      <BackgroundSVG
+        className="absolute blur-3xl top-[-6rem] right-[-30rem]"
         height="60%"
         width="60%"
-      /> */}
+      />
 
       <section className="relative flex items-center justify-center overflow-hidden">
         <div className="relative items-center w-full px-5 py-12 mx-auto lg:px-16 lg:py-24 max-w-7xl md:px-12">

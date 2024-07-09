@@ -1,5 +1,6 @@
 import { Features } from "./Features";
 import HeroSection from "./Hero";
+import WalkthroughSection from "./Walkthrough";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
     >
       <HeroSection />
       <Features />
+      <WalkthroughSection />
     </div>
   );
 };
