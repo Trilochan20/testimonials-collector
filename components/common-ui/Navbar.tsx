@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
       {menuItems.map((item) => (
         <a
           key={item.href}
-          className="block rounded-sm text-sm  font-semibold text-zinc-800 dark:text-zinc-200  
+          className="block rounded-sm text-sm  font-semibold hover:text-indigo-100 text-zinc-800 dark:text-zinc-200  
              tracking-wider  
           "
           href={item.href}
