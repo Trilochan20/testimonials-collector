@@ -75,6 +75,7 @@ const config = {
       screens: {
         'hover': {'raw': '(hover: hover)'},
       }
+      
     },
   },
   plugins: [require("tailwindcss-animate")],

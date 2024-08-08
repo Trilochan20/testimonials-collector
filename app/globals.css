@@ -73,4 +73,6 @@
     body {
       @apply bg-background dark:bg-zinc-900  text-foreground dark:text-gray-100 ;
     }
+    
   }
+

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Karla, Platypi, Mooli } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common-ui/Navbar";
 import { Providers } from "@/lib/provider";
 
-const mont = Montserrat({
+const platypi = Platypi({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "900"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={mont.className}>
+      <body className={platypi.className}>
         <Providers>
           <Navbar />
           {children}

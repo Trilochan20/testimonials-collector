@@ -24,10 +24,10 @@ const HeroSection: React.FC = () => {
         <div className="relative items-center w-full px-5 py-12 mx-auto lg:px-16 lg:py-24 max-w-7xl md:px-12">
           <div className="mx-auto text-center">
             <div>
-              <p className="text-3xl font-bold  text-slate-900 dark:text-slate-100 lg:text-5xl md:text-4xl">
+              <h2 className="text-3xl font-bold  text-slate-900 dark:text-slate-100 lg:text-5xl md:text-4xl">
                 Get testimonials from your
-                <span className="md:block">customers with ease</span>
-              </p>
+                <span className="md:block"> customers with ease</span>
+              </h2>
               <p className="mx-auto max-w-lg lg:text-md mt-4 text-[#141521]/80 dark:text-slate-100/80 text-base">
                 Collecting testimonials is hard, we get it! So we built
                 Testimonial. In minutes, you can collect text and video

@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
@@ -6,10 +5,10 @@ import ThemeSwitch from "@/lib/themeSwitcher";
 
 const Navbar: React.FC = () => {
   const menuItems = [
-    { href: "/", label: "Featues" },
-    { href: "/", label: "Intergrations" },
-    { href: "/", label: "Pricing" },
-    { href: "/", label: "Documentation" },
+    { href: "/features", label: "Featues" },
+    { href: "/integrations", label: "Intergrations" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "/docs", label: "Documentation" },
   ];
 
   const renderMenuItems = () => (
@@ -18,6 +17,7 @@ const Navbar: React.FC = () => {
         <a
           key={item.href}
           className="block rounded-sm text-sm  font-semibold text-zinc-800 dark:text-zinc-200  
+             tracking-wider  
           "
           href={item.href}
         >
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
               className="rounded-md px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 focus:outline-none custom-blur 
               focus-visible:outline-black focus-visible:ring-black 
               hover:bg-indigo-500 dark:hover:bg-indigo-400 hover:text-white
-               dark:hover:text-gray-900 dark:bg-indigo-500 dark:text-gray-100 transition"
+               dark:hover:text-gray-900 dark:bg-indigo-500 dark:text-gray-100 transition tracking-wider"
               variant="ghost"
             >
               Login
