@@ -16,8 +16,9 @@ const Navbar: React.FC = () => {
       {menuItems.map((item) => (
         <a
           key={item.href}
-          className="block rounded-sm text-sm  font-semibold hover:text-indigo-100 text-zinc-800 dark:text-zinc-200  
-             tracking-wider  
+          className="block rounded-sm text-sm  font-semibold text-zinc-800 dark:text-zinc-200  hover:text-indigo-200 dark:hover:text-indigo-800 
+          hover:bg-indigo-950 dark:hover:bg-indigo-50  px-4 py-2 
+             tracking-wider transition-all
           "
           href={item.href}
         >
@@ -29,8 +30,8 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className="fixed w-full z-50 bg-gradient-to-b from-gray-900/10 to-gray-900/0  dark:bg-slate-600/10
-                 backdrop-blur-sm border-b border-slate-100/20  dark:border-slate-800/10 "
+      className="fixed w-full z-50 bg-gradient-to-b from-indigo-900/40 to-indigo-900/0  dark:bg-slate-600/10
+                 backdrop-blur-sm border-b border-slate-900/10  dark:border-slate-100/90 "
       data-test="header"
     >
       <div className="mx-auto w-full max-w-7xl px-4 md:px-6">
