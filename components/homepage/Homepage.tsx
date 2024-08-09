@@ -1,3 +1,4 @@
+import Footer from "../common-ui/Footer";
 import { Features } from "./Features";
 import HeroSection from "./Hero";
 import WalkthroughSection from "./Walkthrough";
@@ -18,6 +19,7 @@ const Homepage = () => {
       <HeroSection />
       <Features />
       <WalkthroughSection />
+      <Footer />
     </div>
   );
 };
