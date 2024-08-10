@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import ThemeSwitch from "@/lib/themeSwitcher";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 const Navbar: React.FC = () => {
   const menuItems = [
@@ -47,7 +48,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-10">
             {renderMenuItems()}
             <ThemeSwitch />
-            <Button
+            {/* <Button
               className="rounded-md px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 focus:outline-none custom-blur 
               focus-visible:outline-black focus-visible:ring-black 
               hover:bg-indigo-500 dark:hover:bg-indigo-400 hover:text-white
@@ -55,7 +56,13 @@ const Navbar: React.FC = () => {
               variant="ghost"
             >
               Login
-            </Button>
+            </Button> */}
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
           </div>
 
           {/* Mobile menu (Hamburger) */}

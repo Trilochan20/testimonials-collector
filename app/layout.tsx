@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Karla, Platypi, Mooli } from "next/font/google";
+import { Platypi } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common-ui/Navbar";
 import { Providers } from "@/lib/provider";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const platypi = Platypi({
   subsets: ["latin"],
@@ -20,13 +21,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={platypi.className}>
-        <Providers>
-          <Navbar />
-          {children}
-        </Providers>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={platypi.className}>
+          <Providers>
+            <Navbar />
+            {children}
+          </Providers>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
