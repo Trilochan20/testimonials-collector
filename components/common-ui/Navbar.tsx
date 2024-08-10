@@ -48,17 +48,16 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-10">
             {renderMenuItems()}
             <ThemeSwitch />
-            {/* <Button
-              className="rounded-md px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 focus:outline-none custom-blur 
+
+            <SignedOut>
+              <div
+                className="rounded-md px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 focus:outline-none custom-blur 
               focus-visible:outline-black focus-visible:ring-black 
               hover:bg-indigo-500 dark:hover:bg-indigo-400 hover:text-white
                dark:hover:text-gray-900 dark:bg-indigo-500 dark:text-gray-100 transition tracking-wider"
-              variant="ghost"
-            >
-              Login
-            </Button> */}
-            <SignedOut>
-              <SignInButton />
+              >
+                <SignInButton />
+              </div>
             </SignedOut>
             <SignedIn>
               <UserButton />
