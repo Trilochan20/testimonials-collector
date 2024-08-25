@@ -18,17 +18,26 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
           <nav className="mt-32">
             <ul>
               <li className="mb-2 ">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a
+                  href="/dashboard"
+                  className="text-blue-600 hover:text-blue-800"
+                >
                   Profile
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a
+                  href="/dashboard/settings"
+                  className="text-blue-600 hover:text-blue-800"
+                >
                   Site Settings
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a
+                  href="/dashboard/list"
+                  className="text-blue-600 hover:text-blue-800"
+                >
                   Collected Testimonials
                 </a>
               </li>

@@ -79,7 +79,7 @@ const SettingsPage: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className=" min-h-screen">
       <section className="pt-24 px-6 max-w-3xl mx-auto w-full">
         <h1 className="text-3xl font-bold mb-8">Settings</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
